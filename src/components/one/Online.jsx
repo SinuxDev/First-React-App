@@ -11,7 +11,8 @@ function Online(props) {
   return (    
     <div className='box'>
         <p> Name : {Name}</p>
-        <p> Address : {Address}</p> 
+        <p> Address : {Address}</p>
+        <p> Ok : als </p>
     </div>      
   )
 }
