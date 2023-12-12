@@ -10,7 +10,7 @@ const App = () => {
       setStudents([...students,memInfo]);
   };
 
-  let contectSection = <h1>No Member Yet</h1>;
+  let contectSection = <h1>No Members Yet</h1>;
 
   if(!students.length < 1){
     contectSection = students.map(student=>(
